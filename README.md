@@ -1,13 +1,3 @@
-# Help-Fight_COVID19
-This is a project to let people help each other and fight to COVID-19. 
-
-## Background Information 
-
-
-
-
-
-
 
 # Help-Fight COVID-19
 This is a project to let people help each other and fight to COVID-19
@@ -20,8 +10,8 @@ As the COVID-19 has seriously damaged human’s lives and the economy. Lots of f
 
 ### Step 1: Goal (milestone) Finish single-user version.
 
-The app should allow CRUD users/ volunteers.
-The app should allow CRUD jobs. 
+* The app should allow CRUD users/ volunteers.
+* The app should allow CRUD jobs. 
 
 Users should have some attributes like id, name, age, address, postcode, phone number, whether living alone and whether a volunteer. 
 
@@ -35,55 +25,21 @@ The app should allow multi-user/ more users to use the app at the same time. (pe
 As a normal user, the app should allow 
 
 
-•Register their information.
-•Update their information.
-•Check their information. 
+* Register their information.
+* Update their information.
+* Check their information. 
 
 As a normal user, the app should allow
 
-•Post a job( requirement).
-•Update their jobs ( if no one undertakes the job)
-•Check their jobs
-•Delete their jobs( if no one undertakes the job and the job didn’t finish) 
+* Post a job( requirement).
+* Update their jobs ( if no one undertakes the job)
+* Check their jobs
+* Delete their jobs( if no one undertakes the job and the job didn’t finish) 
 
 As a volunteer, the app should allow
 
-•Check jobs based on some conditions ( like the jobs close to me within xx miles or based on the priority).
-•Undertake the job if the volunteer thinks they can help. 
-•Update the job status to “job has done”.
+* Check jobs based on some conditions ( like the jobs close to me within xx miles or based on the priority).
+* Undertake the job if the volunteer thinks they can help. 
+* Update the job status to “job has done”.
 
-
-
-
-
-
-# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
 
