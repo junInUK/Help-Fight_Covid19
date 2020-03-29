@@ -1,0 +1,23 @@
+#jobList {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#jobList td, #jobList th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#jobList tr:nth-child(even){background-color: #f2f2f2;}
+
+#jobList tr:hover {background-color: #ddd;}
+
+#jobList th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(13, 15, 13);
+    color: white;
+}

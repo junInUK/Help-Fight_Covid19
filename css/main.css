@@ -1,0 +1,104 @@
+/* Include the padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+  }
+
+  .inputBlock {
+    margin: 0;
+    height: 40px; 
+  }
+  
+  /* Style the close button */
+  .close {
+    /* position: absolute;
+    right: 0;
+    top: 0; */
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #2aa75e;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Clear floats after the header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the input */
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 70%;
+    height: 40px; 
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
+  /* Style the "Add" button */
+  .addBtn {
+    padding: 10px;
+    width: 10%;
+    height: 40px; 
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+
+  .deleteAllBtn {
+    padding: 10px;
+    width: 10%;
+    height: 40px; 
+    background: #eb3d3d;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+
+  .selectPriority{
+    padding: 10px;
+    width: 10%;
+    height: 40px; 
+    background: #757d97;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
+  
+  .deleteAllBtn:hover {
+    background-color: #f10505;
+  }
+  
+  .selectPriority:hover {
+    background-color: #586283;
+  }

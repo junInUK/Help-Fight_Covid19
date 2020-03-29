@@ -1,0 +1,22 @@
+{
+  "name": "help-fight_covid19",
+  "version": "1.0.0",
+  "description": "This is a project to let people help each other and fight to COVID-19",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junwu1976/Help-Fight_Covid19.git"
+  },
+  "author": "Jun Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junwu1976/Help-Fight_Covid19/issues"
+  },
+  "homepage": "https://github.com/junwu1976/Help-Fight_Covid19#readme",
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  }
+}
