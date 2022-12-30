@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/junwu1976/Help-Fight_Covid19#readme",
   "devDependencies": {
-    "mocha": "^7.1.1"
+    "mocha": "^10.2.0"
   }
 }
